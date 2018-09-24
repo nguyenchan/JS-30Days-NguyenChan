@@ -48,18 +48,42 @@
       }, 0);
     console.log(sumYearLive);
     // 5. Sort the inventors by years lived
-
+    const sortYearLive = inventors.sort(function(a, b) {
+      const lastguy = a.passed - a.year;
+      const nextguy = b.passed - b.year;
+      return lastguy > nextguy ? -1 : 1;
+    });
+    console.table(sortYearLive);
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+    // const category = document.querySelector('.mw-category');
+    // const links = Array.from(category.querySelectorAll('a'));
+    // const de = links
+    //                 .map(link => link.textContent)
+    //                 .filter(streetName => streetName.includes('de'));
 
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+    const alpha = people.sort(function(lastone, nextone){
+      const [alast, afirst] = lastone.split(", ");
+      const [blast, bfirst] = lastone.split(", ");
+      return alast > blast ? 1 : -1;
+    });
+    console.log(alpha);
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
-
+    const countT = data.reduce((obj, item) => {
+      if(!obj[item]) {
+        obj[item] = 0;
+      }
+      obj[item] += 1;
+      
+      return obj;
+    }, {});
+    console.log(countT);
   </script>
 </body>
 </html>
