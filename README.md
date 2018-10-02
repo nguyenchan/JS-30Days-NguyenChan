@@ -1,4 +1,5 @@
 # JS-30Days-NguyenChan
 --------------------------
 + Day1: 13h 19/9
-[a relative link](02-Clock.html)
+[01 - DrumKit](01-DrumKit/index.html)
+[02 - clock](02-Clock.html)
