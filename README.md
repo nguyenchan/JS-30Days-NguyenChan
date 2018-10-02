@@ -26,4 +26,4 @@
 + [23 - speechSysthesis](23-speechSysthesis/index.html)
 + [24 - StickyNav](24-stickyNav/index.html)
 + [25 - EventCapture](eventCapture/index.html)
-
++ [26 - StripeFollowAlongDropdown](26-stripeFollowAlongDropdown/index.html)
