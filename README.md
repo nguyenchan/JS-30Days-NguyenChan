@@ -30,4 +30,4 @@
 + [27 - clickAndDrag](27-clickAndDrag/index.html)
 + [28 - videoSpeedControllerUI](28-videoSpeedController/index.html)
 + [29 - countDownClock](29-countDownClock/index.html)
-+ [30]()
++ [30 - Whack-A-Mole!](30-game/index.html)
