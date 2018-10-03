@@ -27,3 +27,7 @@
 + [24 - StickyNav](24-stickyNav/index.html)
 + [25 - EventCapture](25-eventCapture/index.html)
 + [26 - StripeFollowAlongDropdown](26-stripeFollowAlongDropdown/index.html)
++ [27 - clickAndDrag](27-clickAndDrag/index.html)
++ [28 - videoSpeedControllerUI](28-videoSpeedController/index.html)
++ [29 - countDownClock](29-countDownClock/index.html)
++ [30]()
